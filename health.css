@@ -1,3 +1,15 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+ }
 .icon{
     height: 30px;
     width: 30px;
@@ -47,4 +59,12 @@ body{
 .lead{
     display: flex;
     justify-content: flex-end;
+}
+.healthimg{
+    height: 400px;
+    width: 600px;
+    margin-left: 5em;
+}
+.first{
+    margin-top: 3.5em;
 }
